@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Testing Short URLs" 
+title: Testing Short URLs 
 permalink: testing-short-urls/
 ---
 
