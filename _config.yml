@@ -30,6 +30,13 @@ social:
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
+    
+  - icon:	instagram
+    url:	https://instagram.com/thomas.madhavan
+    desc: Follow me on Instagram
+    share_url: 
+    share_title: 
+    share_link: 
 
 #  - icon:	facebook
 #    url:	https://facebook.com/???
