@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing Short URLs 
-permalink: /:title
+permalink: '/:title'
 ---
 
 ### Testing short URLs
