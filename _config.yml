@@ -8,6 +8,9 @@ description: > # this means to ignore newlines until "email:"
    A Jekyll theme - Medium inspired
 
 email: a-mail@mail.mail
+
+permalink: "/:title"
+
 #blog logo
 logo: "/assets/images/df_logo.jpg"
 # blog cover
