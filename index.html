@@ -64,7 +64,7 @@ published: true
             <section class="post-excerpt" itemprop="description">
               
 			  {% if post.excerptimage %}
-				<p><img src="{{post.excerptimage}}" alt="Image missing" width="100%"></p>
+				<p><a href="{{ post.url }}"><img src="{{post.excerptimage}}" alt="Image missing" width="100%" style="border:0"></a></p>
 			  {% else %}
 				<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
 			  {% endif %}
