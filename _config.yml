@@ -5,7 +5,7 @@ highlighter: pygments
 # Site settings
 title: "Thomas Madhavan"
 description: > # this means to ignore newlines until "email:"
-    Thoughts and images
+    Images and thoughts 
     
 email: thomas@tmadhavan.com
 
