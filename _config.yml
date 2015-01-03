@@ -3,11 +3,10 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Test"
+title: "thoughts & images"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
 
-email: a-mail@mail.mail
+email: thomas@tmadhavan.com
 
 permalink: "/:title"
 
@@ -30,9 +29,9 @@ social:
   - icon:	twitter
     url:	https://twitter.com/tmadhavan
     desc: Follow me on Twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+    share_url: 
+    share_title: 
+    share_link: 
     
   - icon:	instagram
     url:	https://instagram.com/thomas.madhavan
