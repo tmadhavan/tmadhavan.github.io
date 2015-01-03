@@ -3,9 +3,9 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "thoughts & images"
+title: "Thomas Madhavan"
 description: > # this means to ignore newlines until "email:"
-
+	Thoughts and images 
 email: thomas@tmadhavan.com
 
 permalink: "/:title"
