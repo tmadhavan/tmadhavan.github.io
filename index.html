@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 
 <div class="teaserimage">
@@ -11,7 +12,7 @@ layout: default
 <header class="blog-header">
     {% if site.logo %}
       <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
-    {% endif %}
+    {% endif %} 
     <h1 class="blog-title">{{ site.title }}</h1>
     <h2 class="blog-description">{{ site.description }}</h2>
     <div class="custom-links">
@@ -61,7 +62,7 @@ layout: default
               <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
             </header>
             <section class="post-excerpt" itemprop="description">
-              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+              <p>{{ post.image | post.content | strip_html | truncatewords: 50 }}</p>
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
