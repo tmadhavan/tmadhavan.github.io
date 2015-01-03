@@ -40,6 +40,13 @@ social:
     share_url: 
     share_title: 
     share_link: 
+    
+  - icon:	flickr
+    url:	https://flickr.com/tmadhavan
+    desc: Follow me on Flickr
+    share_url: 
+    share_title: 
+    share_link:   
 
 #  - icon:	facebook
 #    url:	https://facebook.com/???
@@ -48,12 +55,12 @@ social:
 #    share_title: ?t=
 #    share_link: "&amp;u="
 
-  - icon:	github
-    url:	https://github.com/tmadhavan
-    desc:	Fork me on Github
-    share_url:
-    share_title:
-    share_link:
+#  - icon:	github
+#    url:	https://github.com/tmadhavan
+#    desc:	Fork me on Github
+#    share_url:
+#    share_title:
+#    share_link:
 
 #  - icon:	google-plus
 #    url:	https://google.com/???
