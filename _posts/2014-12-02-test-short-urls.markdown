@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Testing Short URLs
+title: A Photo Each Day
 published: true
 ---
 
