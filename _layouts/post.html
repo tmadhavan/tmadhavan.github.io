@@ -50,6 +50,7 @@
           <a name="topofpage"></a>
           {{content}}
         </section>
+		{% include comments.html %}
         <footer class="post-footer">
           <section class="share">
             {% for social in site.social %}
@@ -86,7 +87,6 @@
           </div>
         </div>
       </article>
-	  	{% include comments.html %}
     </main>
     <div class="bottom-closer">
       <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
