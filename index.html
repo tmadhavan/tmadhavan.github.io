@@ -65,11 +65,11 @@ published: true
               
 			  {% if post.excerptimage %}
 				<!--<p><a href="{{ post.url }}"><img src="{{post.excerptimage}}" alt="Image missing" width="100%" style="border:0"></a></p>-->
-				<figure class="image"><img src="{{post.excerptimage}}" alt="Image missing">
+				<p><figure class="image"><img src="{{post.excerptimage}}" alt="Image missing">
 				{% if post.photo365number %}
 				<figcaption>"Image {{post.exceptimagecaption}} of 365"</figcaption>
 				{% endif %}
-				</figure>
+				</figure></p>
 			  {% else %}
 				<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
 			  {% endif %}
