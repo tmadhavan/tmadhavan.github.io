@@ -2,7 +2,7 @@
 published: no
 comments: true
 layout: post
-title:	Misty Path
+title:	
 excerptimage: ../images/37.jpg
 ---
 
