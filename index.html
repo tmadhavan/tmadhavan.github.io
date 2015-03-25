@@ -65,7 +65,7 @@ published: true
               
 			  {% if post.excerptimage %}
 				<p><a href="{{ post.url }}">
-					<img src="{{post.excerptimage}}" alt="Image missing" width="100%" style="border:0">
+					<img src="{{post.excerptimage}}" alt="Image missing" style="border:0">
 				</a></p>
 			  {% else %}
 				<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
